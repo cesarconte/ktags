@@ -1,0 +1,8 @@
+build/
+.cache/
+*.o
+*.qsb
+compile_commands.json
+.ninja_*
+.qt/
+*.user
