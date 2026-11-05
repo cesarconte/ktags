@@ -1,6 +1,7 @@
 [Desktop Entry]
 Type=Service
-MimeType=all/allfiles;inode/directory;
+MimeType=all/all;
+X-KDE-Protocols=file,trash,KIO
 Actions=tag_red;tag_orange;tag_yellow;tag_green;tag_blue;tag_purple;tag_gray;_SEPARATOR_;tag_remove;
 X-KDE-Submenu=Etiquetas de color
 X-KDE-Priority=TopLevel
@@ -9,39 +10,39 @@ Icon=tag
 [Desktop Action tag_red]
 Name=🔴 Rojo
 Icon=tag
-Exec=ktag set red %F
+Exec=/home/cesar/.local/bin/ktag set red %F
 
 [Desktop Action tag_orange]
 Name=🟠 Naranja
 Icon=tag
-Exec=ktag set orange %F
+Exec=/home/cesar/.local/bin/ktag set orange %F
 
 [Desktop Action tag_yellow]
 Name=🟡 Amarillo
 Icon=tag
-Exec=ktag set yellow %F
+Exec=/home/cesar/.local/bin/ktag set yellow %F
 
 [Desktop Action tag_green]
 Name=🟢 Verde
 Icon=tag
-Exec=ktag set green %F
+Exec=/home/cesar/.local/bin/ktag set green %F
 
 [Desktop Action tag_blue]
 Name=🔵 Azul
 Icon=tag
-Exec=ktag set blue %F
+Exec=/home/cesar/.local/bin/ktag set blue %F
 
 [Desktop Action tag_purple]
 Name=🟣 Morado
 Icon=tag
-Exec=ktag set purple %F
+Exec=/home/cesar/.local/bin/ktag set purple %F
 
 [Desktop Action tag_gray]
 Name=⚪ Gris
 Icon=tag
-Exec=ktag set gray %F
+Exec=/home/cesar/.local/bin/ktag set gray %F
 
 [Desktop Action tag_remove]
 Name=🚫 Quitar etiquetas
 Icon=edit-delete
-Exec=ktag remove %F
+Exec=/home/cesar/.local/bin/ktag remove %F
