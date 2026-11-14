@@ -10,39 +10,39 @@ Icon=tag
 [Desktop Action tag_red]
 Name=🔴 Rojo
 Icon=tag
-Exec=/home/cesar/.local/bin/ktag set red %F
+Exec=ktag set red %F
 
 [Desktop Action tag_orange]
 Name=🟠 Naranja
 Icon=tag
-Exec=/home/cesar/.local/bin/ktag set orange %F
+Exec=ktag set orange %F
 
 [Desktop Action tag_yellow]
 Name=🟡 Amarillo
 Icon=tag
-Exec=/home/cesar/.local/bin/ktag set yellow %F
+Exec=ktag set yellow %F
 
 [Desktop Action tag_green]
 Name=🟢 Verde
 Icon=tag
-Exec=/home/cesar/.local/bin/ktag set green %F
+Exec=ktag set green %F
 
 [Desktop Action tag_blue]
 Name=🔵 Azul
 Icon=tag
-Exec=/home/cesar/.local/bin/ktag set blue %F
+Exec=ktag set blue %F
 
 [Desktop Action tag_purple]
 Name=🟣 Morado
 Icon=tag
-Exec=/home/cesar/.local/bin/ktag set purple %F
+Exec=ktag set purple %F
 
 [Desktop Action tag_gray]
 Name=⚪ Gris
 Icon=tag
-Exec=/home/cesar/.local/bin/ktag set gray %F
+Exec=ktag set gray %F
 
 [Desktop Action tag_remove]
 Name=🚫 Quitar etiquetas
 Icon=edit-delete
-Exec=/home/cesar/.local/bin/ktag remove %F
+Exec=ktag remove %F
