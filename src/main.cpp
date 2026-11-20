@@ -25,6 +25,18 @@ int main(int argc, char *argv[])
 
     const QString cmd = args.at(1).toLower();
 
+    if (cmd == "--help" || cmd == "-h" || cmd == "help") {
+        std::cout << "ktag: macOS Finder Color Tags for Dolphin & KDE Plasma" << std::endl;
+        std::cout << "Uso:" << std::endl;
+        std::cout << "  ktag set <color> <archivos...>" << std::endl;
+        std::cout << "  ktag remove <archivos...>" << std::endl;
+        std::cout << "  ktag get <archivo>" << std::endl;
+        std::cout << "  ktag setup-places" << std::endl;
+        std::cout << "  ktag clean" << std::endl;
+        std::cout << "\nColores disponibles: red, orange, yellow, green, blue, purple, gray" << std::endl;
+        return 0;
+    }
+
     if (cmd == "setup-places") {
         if (TagEngine::setupPlaces()) {
             std::cout << "Etiquetas añadidas correctamente a la barra de Lugares de Dolphin." << std::endl;
